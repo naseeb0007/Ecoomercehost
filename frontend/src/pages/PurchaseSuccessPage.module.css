@@ -1,0 +1,118 @@
+/* General Styles */
+.container {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+  }
+  
+  .confetti {
+    z-index: 99;
+    width: 100vw;
+    height: 100vh;
+  }
+  
+  .card {
+    max-width: 28rem;
+    width: 100%;
+    background-color: #2d3748; /* gray-800 */
+    border-radius: 0.5rem;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    position: relative;
+    z-index: 10;
+  }
+  
+  .cardContent {
+    padding: 1.5rem;
+  }
+  
+  .icon {
+    color: #34d399; /* emerald-400 */
+    width: 4rem;
+    height: 4rem;
+    margin-bottom: 1rem;
+  }
+  
+  .title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+    color: #34d399; /* emerald-400 */
+    margin-bottom: 0.5rem;
+  }
+  
+  .subtitle {
+    color: #e2e8f0; /* gray-300 */
+    text-align: center;
+    margin-bottom: 0.5rem;
+  }
+  
+  .textInfo {
+    color: #34d399; /* emerald-400 */
+    text-align: center;
+    font-size: 0.875rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .orderInfo {
+    background-color: #4a5568; /* gray-700 */
+    border-radius: 0.5rem;
+    padding: 1rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .infoItem {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0.5rem;
+  }
+  
+  .infoLabel {
+    color: #edf2f7; /* gray-400 */
+    font-size: 0.875rem;
+  }
+  
+  .infoValue {
+    font-weight: 600;
+    color: #34d399; /* emerald-400 */
+  }
+  
+  .button {
+    width: 100%;
+    font-weight: bold;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.3s;
+  }
+  
+  .buttonPrimary {
+    background-color: #34d399; /* emerald-600 */
+    color: #ffffff;
+  }
+  
+  .buttonPrimary:hover {
+    background-color: #2f855a; /* emerald-700 */
+  }
+  
+  .buttonSecondary {
+    background-color: #4a5568; /* gray-700 */
+    color: #34d399; /* emerald-400 */
+  }
+  
+  .buttonSecondary:hover {
+    background-color: #2d3748; /* gray-600 */
+  }
+  
+  .buttonIcon {
+    margin-right: 0.5rem;
+  }
+  
+  .buttonIconRight {
+    margin-left: 0.5rem;
+  }
+  
